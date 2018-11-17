@@ -1,0 +1,34 @@
+{
+  "name": "boxlocaledit",
+  "version": "0.0.1",
+  "description": "edit box files locally",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmfrank63/BoxLocalEdit.git"
+  },
+  "keywords": [
+    "box",
+    "edit",
+    "local",
+    "desktop"
+  ],
+  "author": "Johannes Maria Frank",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/jmfrank63/BoxLocalEdit/issues"
+  },
+  "homepage": "https://github.com/jmfrank63/BoxLocalEdit#readme",
+  "dependencies": {
+    "box-node-sdk": "^1.22.1",
+    "electron": "^3.0.9",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
